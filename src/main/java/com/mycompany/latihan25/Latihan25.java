@@ -33,13 +33,14 @@ public class Latihan25 {
                 System.out.println("Huruf ke-"+(i+1)+" : "+huruf);
             }
             
-            System.out.print("Ulangi Aktifitas? (ya/tidak)");
-            String ulang = input.next();
-            if(ulang == "ya"){
-                System.out.println("Program akan diulangi");
-            }else if(ulang == "tidak"){
-                System.out.println("Program berhenti terimakasih");
-                ulangi = false; 
+          System.out.print("ulangi aktifitas? (ya/tidak)");
+            String aktifitas = input.next().toUpperCase();                                
+            
+            if(aktifitas.equals("YA")){
+                System.out.print("Program akan diulangi\n");                
+            } else if(aktifitas.equals("TIDAK")){
+                System.out.print("Program Berhenti Terimakasih\n");
+                ulangi = false;
         }
         }
     }

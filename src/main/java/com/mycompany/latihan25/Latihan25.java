@@ -12,7 +12,7 @@ import java.util.Scanner;
  Nim               : 22205071
  Prodi             : Teknik Informatika
  Kelas             : PBO1
- Deskripsi Program : Program ini berisi program nama depan untuk dieja dan program akan diulangi serta berhenti
+ Deskripsi Program : Program ini berisi program nama depan untuk di eja dan program akan diulangi serta berhenti
  */
 public class Latihan25 {
 
@@ -22,7 +22,7 @@ public class Latihan25 {
         
         boolean ulangi = true;
         while(ulangi){
-            System.out.print("Masukkan nama depan anda untuk dieja : ");
+            System.out.print("Masukkan nama depan anda untuk di eja : ");
             String nama = input.next();
             
             System.out.println("Ejaan untuk '"+nama+"' adalah ");
